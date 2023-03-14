@@ -1,0 +1,79 @@
+
+#step1{
+    h1{ font-size: 70px;}
+    p{ color:red; }
+}
+
+$color-main: #ff00ff;
+
+#step2 {
+    p { color: $color-main }
+    a { color: $color-main }
+}
+
+#step3 {
+    .box {
+    background: orange;
+    width:600px;
+    text-align: center;
+    .box-item {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid red;
+    height: 20px;
+    width: (95%/3) ;
+    background :#fff;
+    }
+    }
+}
+
+#step4 {
+    .button {
+    display: inline-block;
+    border: 1px solid red;
+    padding:20px;
+    border-radius: 30px;
+    }
+.button-red {
+    @extend .button;
+    background: red;
+    }
+}
+
+#step5 {
+    @mixin button($color:white) {
+    display: inline-block;
+    padding: 10px;
+    border:1px solid red;
+    background: $color;
+    }
+
+.button-default {
+    @include button;
+    }
+    
+.button-red {
+    @include button(red);
+    }
+
+.button-blue {
+    @include button(blue);
+}
+
+}
+
+body{
+    background: #f0f0f0;
+}
+div{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.icobutton {
+    font-size: 3em;
+    margin: 0 0.5em
+}

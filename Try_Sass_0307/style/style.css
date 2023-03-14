@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mainbody{
+    background-color: black;
+}
+
+header{
+    background-color: black;
+    padding: 20px 20px 20px 20px;
+    border-style: groove;
+    border-color: rgb(97, 92, 92) red grey; 
+    border-width: 10px;
+    text-align: center;
+    margin: 60px 60px 60px 60px;
+    word-spacing: 80px;
+    font-size: 25px;
+}
+
+a{
+    color: white;
+    word-spacing: 100px;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+ul li{
+    display: contents;
+    color: aliceblue;
+    word-spacing: 80%;
+}
+
+.introinv{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150px;
+    font-style: italic;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    font-style: italic;
+    text-align: center;
+}
+
+h2{
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(107, 11, 11);
+    margin: 30px 700px 5px 700px;
+    border-radius: 100px;
+    display: block;
+}
+
+p{
+    font-family: 'Handlee', cursive;
+    font-weight: 50;
+    font-style: normal;
+    text-align: right;
+    font-size: 5px;
+    line-height: normal;
+    letter-spacing: normal;
+    word-spacing: 5px;
+    color: whitesmoke;
+    background-color: black;
+    font-size: 25px;
+    display: flex;
+    margin: 0px 0px 700px 700px;
+}
+
+h4{
+    color: white;
+    font-size: 45px;
+    font-style: oblique;
+}
+
+img.style1{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    padding: 0px 0px 0px 10px;
+}
+
+img.style2{
+    padding: 0px 0px 0px 80px;
+    object-fit: cover;
+}
+
+img.mt{
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    padding: 30px 0px 0px 150px;
+}
+
+img.mma{
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    padding: 30px 0px 0px 150px;
+}
+
+img.lo{
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    padding: 30px 0px 0px 150px;
+}
+
+img.logo1{
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 600px;
+} 
+
+img.anfibio{
+    padding: 0px 0px 0px 700px;
+}
+
+.textmt{
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.box2 {
+    text-align: center;
+} 
+
+.mtbox {
+    text-align: center;
+} 
+
+.mtimg1 {
+    display: inline-block;
+}
+
+.textmt{
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: top;
+    text-align: left;
+    padding: 100px 0px 0px 20px;
+}
+
+.textmma{
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.box3 {
+    text-align: center;
+}
+
+.mmabox {
+    text-align: center;
+}
+
+.mmaimg1{
+    display: inline-block;
+}
+
+.textmma{
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: top;
+    text-align: left;
+    padding: 100px 0px 0px 20px;
+}
+
+.textlo{
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.box4 {
+    text-align: center;
+} 
+
+.lobox {
+    text-align: center;
+} 
+
+.loimg1 {
+    display: inline-block;
+}
+
+.textlo{
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: top;
+    text-align: left;
+    padding: 100px 0px 0px 20px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+}
+
+@media (max-width: 1000px){
+    .flex-container{
+        flex-direction: column;
+    }
+}
+
+
